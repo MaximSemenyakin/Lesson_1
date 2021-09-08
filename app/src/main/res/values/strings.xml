@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Lesson_1</string>
+    <string name="hint_ET">Type something here</string>
+    <string name="greeting">Hello World!</string>
+    <string name="switch_control_weather">Change the weather</string>
+    <string name="button">Tap me!</string>
+    <string name="check_box">Let\'s make this day more interesting</string>
+    <string name="toggle_button">Music On</string>
+    <string name="text_password">Type your text password</string>
+    <string name="number_password">Type your number password</string>
+    <string name="person_name">Type your person name</string>
+    <string name="email_address">Type your Email address here</string>
+    <string name="phone_number">Type your phone number</string>
+    <string name="any_text">Type any text here</string>
+    <string name="second_button">Tap me!</string>
 </resources>
