@@ -83,7 +83,7 @@
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/phoneNumber_edit_text"
+                android:id="@+id/phone_number_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -103,7 +103,7 @@
                 android:inputType="textEmailAddress" />
 
             <EditText
-                android:id="@+id/personName_edit_text"
+                android:id="@+id/person_name_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -113,7 +113,7 @@
                 android:inputType="textPersonName" />
 
             <EditText
-                android:id="@+id/passwordNumber_edit_text"
+                android:id="@+id/password_number_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -123,7 +123,7 @@
                 android:inputType="numberPassword" />
 
             <EditText
-                android:id="@+id/passwordText_edit_text"
+                android:id="@+id/password_text_edit_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -140,7 +140,7 @@
                 android:text="@string/second_button" />
 
             <TextView
-                android:id="@+id/show_result_TV"
+                android:id="@+id/show_result_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -149,7 +149,7 @@
                 tools:text="Example text" />
 
             <CalendarView
-                android:id="@+id/calendar_frame"
+                android:id="@+id/calendar_cell"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
