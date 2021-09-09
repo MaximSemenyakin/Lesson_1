@@ -15,16 +15,148 @@
             android:id="@+id/show_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello World!"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/greeting"
+            android:textSize="18sp" />
 
+        <EditText
+            android:id="@+id/example_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_ET"
+            android:textColor="#3F51B5" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/example_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/switch_control_weather"
+            android:textColor="#2196F3" />
+
+        <CheckBox
+            android:id="@+id/example_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/check_box"
+            android:textSize="20sp" />
+
+        <ToggleButton
+            android:id="@+id/example_toggle_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/toggle_button"
+            android:textSize="12sp" />
 
         <Button
+            android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:background="#050505"
+            android:text="@string/button"
+            android:textColor="#009688" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/text_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="casual"
+                android:hint="@string/any_text"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/phone_number_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="cursive"
+                android:hint="@string/phone_number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="casual"
+                android:hint="@string/email_address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/person_name_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="casual"
+                android:hint="@string/person_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/password_number_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="cursive"
+                android:hint="@string/number_password"
+                android:inputType="numberPassword" />
+
+            <EditText
+                android:id="@+id/password_text_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="cursive"
+                android:hint="@string/text_password"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/second_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="@string/second_button" />
+
+            <TextView
+                android:id="@+id/show_result_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:textSize="16sp"
+                tools:text="Example text" />
+
+            <CalendarView
+                android:id="@+id/calendar_cell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
     </LinearLayout>
+
 
 </ScrollView>
